@@ -1,10 +1,10 @@
-import React, { Component } from "react";
-import P5Wrapper from "react-p5-wrapper";
-import doubleCircles from "./drawings/doubleCircles";
-import contours from "./drawings/contours";
-import flower from "./drawings/flower";
-import squiggly from "./drawings/squiggly";
-import "./App.css";
+import React, { Component } from 'react';
+import P5Wrapper from 'react-p5-wrapper';
+import doubleCircles from './drawings/doubleCircles';
+import contours from './drawings/contours';
+import flower from './drawings/flower';
+import squiggly from './drawings/squiggly';
+import './App.css';
 
 class App extends Component {
   constructor(props) {
