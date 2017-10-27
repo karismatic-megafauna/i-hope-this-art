@@ -1,4 +1,4 @@
-const thing = (p) => {
+const doubleCircles = (p) => {
   var centerX = 0;
   var centerY = 0;
   var totalDegrees = 360;
@@ -57,4 +57,4 @@ const thing = (p) => {
   }
 }
 
-export default thing;
+export default doubleCircles;
