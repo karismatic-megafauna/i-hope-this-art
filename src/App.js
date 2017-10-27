@@ -3,14 +3,16 @@ import P5Wrapper from 'react-p5-wrapper';
 import doubleCircles from './drawings/doubleCircles';
 import contours from './drawings/contours';
 import flower from './drawings/flower';
+import petals from './drawings/petals';
+import theEye from './drawings/theEye';
 import './App.css';
 
 class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      sketches: [ contours, flower, doubleCircles ],
-      active: flower,
+      sketches: [ petals, contours, flower, doubleCircles, theEye ],
+      active: petals,
     }
   }
 
